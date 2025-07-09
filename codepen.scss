@@ -1,1 +1,11 @@
+:root {
+  --main-color: #40c6d0;
+  --main-bg: #1d1e22;
+  --secondary-color: #5a50f2;
+  --main-gradient: linear-gradient(45deg, var(--main-color) 0%, var(--secondary-color) 100%);
+}
 
+body {
+  color: var(--main-color);
+  background: var(--main-bg);
+}
