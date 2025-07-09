@@ -6,6 +6,6 @@
 }
 
 body {
-  color: var(--main-color);
-  background: var(--main-bg);
+  color: var(--main-color) !important;
+  background: var(--main-bg) !important;
 }
